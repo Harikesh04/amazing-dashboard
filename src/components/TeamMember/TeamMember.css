@@ -1,0 +1,60 @@
+.Membercontainer{
+ display: flex;
+ flex-direction: row;
+ margin: 2vmax 0 0 0.5vmax;
+ justify-content: space-between;
+ cursor: pointer;
+
+}
+.Membercontainer>img{
+    width: 20%;
+    border-radius: 100%;
+    
+   
+}
+.Membercontainer>h5{
+    color: #00ADE1;
+    font: 500 1.3vmax "Roboto";
+}
+
+.Mempos{
+    display: flex;
+    flex-direction: column;
+}
+.Mempos>h4{
+    color: #FFFFFF;
+    font: 500 1.3vmax "Roboto";
+    
+}
+.Mempos>p{
+    color: #ccc7c7e6;
+    font: 500 0.9vmax "Roboto";
+    
+}
+@media screen and (max-width:600px) {
+    .Membercontainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Membercontainer>img{
+        width: 14%;
+
+    }
+    .Mempos>h4{
+        color: #FFFFFF;
+        font: 500 1.9vmax "Roboto";
+        
+    }
+    .Mempos>p{
+      
+        font: 500 1.4vmax "Roboto";
+        
+    }
+    .Membercontainer>h5{
+        
+        font: 500 1.9vmax "Roboto";
+    }
+
+}

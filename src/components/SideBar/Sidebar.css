@@ -1,0 +1,70 @@
+.sidebar {
+    background-color: #13132B;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    height: auto;
+  }
+  .sidebar a {
+    text-decoration: none;
+    color: #00ADE299;
+    ;
+    font: 200 1rem "Roboto";
+    padding: 2rem;
+    transition: all 0.5s;
+  }
+  .sidebar a:hover {
+    color:  #00ADE2;
+    transform: scale(1.5);
+  }
+  .sidebar a > p > svg {
+    margin-right: 0.5rem;
+  }
+  .MuiTypography-root {
+    background-color: #fff !important;
+  }
+  .sidebarbutton{
+    border: none;
+    background-color:#ED1690;
+    color: white;
+    font: 300 1.2vmax "Roboto";
+    width: 70%;
+    padding: 0.8vmax;
+    margin: 2vmax 0 0 3vmax ;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+  }
+  .sidebarbutton>svg{
+    font-size: 1.2vmax;
+  }
+  .sidebarbutton:hover {
+    background-color: #ef0d15;
+  }
+
+  @media screen and (max-width:600px){
+    .sidebar {
+      margin: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .sidebarbutton{
+      width: 100%;
+      padding: 1.2vmax;
+      font: 400 2vmax "Roboto";
+     
+
+    }
+    .sidebarbutton>svg{
+      font-size: 2vmax;
+    }
+    .sidebar a {
+      
+      font: 400 1.5rem "Roboto";
+      padding: 2rem;
+      
+    }
+  }

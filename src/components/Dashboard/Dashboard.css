@@ -1,0 +1,240 @@
+
+.dashboard {
+    display: grid;
+    width: 100vw;
+    height:auto;
+    max-width: 100%;
+    position: absolute;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 2fr 2fr ;
+    grid-template-areas:
+      "nav nav nav nav nav"
+      "sidebar piechart piechart activities activities"
+      "sidebar teamActivities teamActivities teamActivities  teamPerformence";
+      
+    grid-gap: 2rem;
+    font-weight: 800;
+    background-color:#13132B ;
+    
+    font-size: 12px;
+   
+    text-align: center;
+  }
+  .nav {
+    background: #13132B;
+    grid-area: nav;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  .piechart {
+    background: #13132B ;
+    grid-area: piechart;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  .piechart{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    
+    
+   grid-gap: 0.5vmax;
+   
+   margin: 2px;
+
+
+  }
+  .piechart p{
+    color: #FFFFFF;
+    font: 500 1.2vmax "Roboto";
+    
+  }
+  .card{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #222240;
+  
+  
+  border-radius: 1vmax;
+  cursor: pointer;
+  
+
+  
+  
+  
+  
+  }
+  .card p{
+    font:400 "Roboto";
+  }
+
+  .cardsection1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+    
+  }
+  .cardsection2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    
+  }
+  .CircularProgress{
+    width: 5vmax;
+    height: 5vmax;
+   
+
+  }
+  
+  
+  .sidebar {
+    
+    grid-area: sidebar;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+  }
+  
+  .activities {
+    background: #222240;
+    grid-area: activities;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin: 0 2vmax 0 0;
+    border-radius: 1vmax;
+    background-color: #222240;
+    display:flex ;
+    align-items: flex-start;
+    flex-direction: column;
+    
+  }
+  .activities > p{
+    color: #FFFFFF;
+    font: 500 1.2vmax "Roboto";
+    margin: 2px 0 0 2px;
+  }
+  
+  .teamActivities {
+    background: #222240;
+    grid-area: teamActivities;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin: 0 0 2vmax 0;
+    border-radius: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+  }
+  .teamActivities>p{
+    color: #FFFFFF;
+    font: 500 1.2vmax "Roboto";
+    margin: 2px 0 0 2px;
+  }
+  
+.teamPerformence{
+    background:#222240;
+    grid-area: teamPerformence;
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    margin: 0 2vmax 2vmax 0;
+    border-radius: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .teamPerformence>p{
+    color: #FFFFFF;
+    font: 500 1.2vmax "Roboto";
+    margin: 2px 0 0 1px;
+  }
+
+  @media screen and (max-width:600px){
+    .dashboard{
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.1fr 3fr 3fr ;
+      grid-template-areas:
+        "nav"
+        "sidebar"
+        "piechart"
+        "activities"
+        "teamActivities"
+        "teamPerformence"
+        
+
+    }
+    .CircularProgress{
+      width: 12vmax;
+      height: 12vmax;
+     
+     
+  
+    }
+    .card p{
+      font: 400 1rem "Roboto";
+      margin-bottom: 2vmax;
+    }
+    .piechart{
+      grid-template-columns: 1fr;
+
+    }
+    .card{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .cardsection1{
+      
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      
+      
+    }
+    .cardsection2{
+      align-items:center;
+      justify-content: center;
+    }
+    .activities{
+      align-items: center;
+      justify-content: center;
+
+    }
+    .activities > p{
+      
+      font: 500 2.2vmax "Roboto";
+      margin: 2px 0 0 2px;
+    }
+    .teamActivities{
+      align-items: center;
+      justify-content: center;
+    }
+    .teamActivities>p{
+      font: 500 2.2vmax "Roboto";
+      margin: 2px 0 0 2px;
+      
+    }
+    .teamPerformence{
+      align-items: center;
+      justify-content: center;
+
+    }
+    .teamPerformence>p{
+      
+      font: 500 2.2vmax "Roboto";
+      
+    }
+   
+  
+  }
+  
+  

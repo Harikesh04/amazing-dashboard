@@ -1,0 +1,11 @@
+.linechartcontainer{
+    cursor: pointer;
+    width: 80%;
+    
+}
+@media screen and (max-width:600px) {
+    .linechartcontainer{
+         width: 60%;
+         
+    }
+}

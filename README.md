@@ -1,3 +1,23 @@
+TECH STACK USED 
+
+
+Reactjs
+HTML
+CSS
+JS
+some other javascript libraries.
+
+
+Install Dependencies
+
+
+ - cd dashboard npm i
+
+ Author
+
+**Instagram** Click [Here](https://www.instagram.com/harikeshsingh_/)**@harikeshsingh_
+**LinkedIn** Click [Here](https://www.linkedin.com/in/harikesh-singh-506503202/)**@HarikeshSingh
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
