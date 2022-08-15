@@ -1,4 +1,4 @@
-TECH STACK USED 
+# TECH STACK USED 
 
 
 Reactjs
@@ -8,12 +8,12 @@ JS
 some other javascript libraries.
 
 
-Install Dependencies
+##`Install Dependencies`
 
 
- - cd dashboard npm i
+  cd dashboard npm i
 
- Author
+## Author
 
 **Instagram** Click [Here](https://www.instagram.com/harikeshsingh_/)**@harikeshsingh_
 **LinkedIn** Click [Here](https://www.linkedin.com/in/harikesh-singh-506503202/)**@HarikeshSingh
