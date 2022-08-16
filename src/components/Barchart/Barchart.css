@@ -1,5 +1,5 @@
 .Barchartcontainer{
-    width: 150%;
+    width: max-content;
     height: 110%;
     cursor: pointer;
     margin-top: 5vmax;
@@ -12,12 +12,13 @@
 
 @media screen and (max-width:600px){
     .Barchartcontainer{
-        width: 45%;
+        width:min-content;
         height: min-content;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+
         
     }
 }
