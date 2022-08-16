@@ -18,8 +18,8 @@ some other javascript libraries.
 
   cd dashboard npm i
   
-  ![Screenshot (1403)](https://user-images.githubusercontent.com/91447902/184822523-e374dc6d-2e30-4e29-83b3-8b8b9440284c.png)
-  ![Screenshot (1399)](https://user-images.githubusercontent.com/91447902/184822749-02cbe271-8365-412f-8d27-8a6a9d5c3df7.png)
+  ![Screenshot (1408)](https://user-images.githubusercontent.com/91447902/184955864-c21f0656-943c-429e-b1ae-63d6f72c86a0.png)
+ ![Screenshot (1399)](https://user-images.githubusercontent.com/91447902/184822749-02cbe271-8365-412f-8d27-8a6a9d5c3df7.png)
   ![Screenshot (1404)](https://user-images.githubusercontent.com/91447902/184823045-2f6b3086-38fe-4899-a356-a78e79b53846.png)
   ![Screenshot (1405)](https://user-images.githubusercontent.com/91447902/184823099-a4209543-db36-40dc-a088-e75ee81463d6.png)
 ![Screenshot (1406)](https://user-images.githubusercontent.com/91447902/184823183-18f90753-00db-401b-8fc9-dfa015e22583.png)
